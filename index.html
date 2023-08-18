@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="view">
+        <div class="input">
+          <input id="display" type="text" placeholder="0" />
+        </div>
+        <button class="corner" onclick="clr()">AC</button>
+        <button class="corner" onclick="dl()">DEL</button>
+        <button class="corner" onclick="per()">%</button>
+        <button class="corner" onclick="join('/')">/</button>
+        <button onclick="join('7')">7</button>
+        <button onclick="join('8')">8</button>
+        <button onclick="join('9')">9</button>
+        <button class="corner" onclick="join('*')">X</button>
+        <button onclick="join('4')">4</button>
+        <button onclick="join('5')">5</button>
+        <button onclick="join('6')">6</button>
+        <button class="corner" onclick="join('-')">-</button>
+        <button onclick="join('1')">1</button>
+        <button onclick="join('2')">2</button>
+        <button onclick="join('3')">3</button>
+        <button class="corner" onclick="join('+')">+</button>
+        <button onclick="join('0')">0</button>
+        <button onclick="join('.')">.</button>
+        <button class="corner" id="calculate" onclick="cal()">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
