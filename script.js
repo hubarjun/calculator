@@ -4,6 +4,7 @@ function join(num){
 }
 function clr(){
    display.value="";
+   display.placeholder="0";
 }
 function dl(){
     display.value=display.value.slice(0,-1);
